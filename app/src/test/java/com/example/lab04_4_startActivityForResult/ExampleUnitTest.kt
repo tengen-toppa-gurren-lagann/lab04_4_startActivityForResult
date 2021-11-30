@@ -1,4 +1,4 @@
-package com.example.lab03_2
+package com.example.lab04_4_startActivityForResult
 
 import org.junit.Test
 

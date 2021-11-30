@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity1">
+    tools:context=".MainActivity"
+    android:id="@+id/fragment1" >
 
     <TextView
         android:id="@+id/name_first"
@@ -18,7 +19,7 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <Button
-        android:id="@+id/btn2second"
+        android:id="@+id/bnToSecond"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn2second"
@@ -30,7 +31,7 @@
         app:layout_constraintVertical_bias="0.106" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/nav_bottom"
+        android:id="@+id/nav_view"
         android:layout_width="408dp"
         android:layout_height="73dp"
         app:layout_constraintBottom_toBottomOf="parent"

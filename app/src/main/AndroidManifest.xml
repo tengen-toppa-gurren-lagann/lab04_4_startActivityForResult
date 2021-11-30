@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lab03_2">
+    package="com.example.lab04_4_startActivityForResult">
 
     <application
         android:allowBackup="true"
@@ -8,18 +8,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Lab03_2">
+        android:theme="@style/Theme.lab04_4_startActivityForResult">
         <activity
             android:name=".ActivityAbout"
             android:exported="false" />
+        <!--Для правильной работы Navigate Up в активностях должна быть указана родительская активность-->
         <activity
             android:name=".Activity3"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".Activity2" />
         <activity
             android:name=".Activity2"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".Activity1"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

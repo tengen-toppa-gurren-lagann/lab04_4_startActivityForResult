@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">lab03_2</string>
+    <string name="app_name">lab04_4_startActivityForResult</string>
     <string name="name_first">First Activity</string>
     <string name="name_second">Second Activity</string>
     <string name="name_third">Third Activity</string>
@@ -8,5 +8,5 @@
     <string name="btn2second">To Second</string>
     <string name="btn2third">To Third</string>
     <string name="menu_about">About</string>
-    <string name="lab_about">Task 2 in Lab 3</string>
+    <string name="lab_about">Task 2 in Lab 4</string>
 </resources>
